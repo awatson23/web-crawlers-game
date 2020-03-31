@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+body {
+    font-family: 'Press Start 2P'
+}
+
+.hidden
+{
+    display: none;
+}
+
+audio {
+    position: absolute;
+    right:0%;
+   
+}
+
+#gameOver {
+    margin-top: 12%;
+    visibility: hidden;
+    position: absolute;
+    width: 1024px;
+    height: 40%;
+    background-color: rgb(167, 5, 67);
+    opacity: 90%;
+    text-align: center;
+}
+
+#gameOver p {
+    padding-top: 4%;
+    color: rgb(43, 255, 43);
+    font-size: 16px; 
+}
+
+#playAgain {
+    margin: 0 auto;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    margin-top: 4%;
+    padding: 2%;
+    background-color: rgb(255, 255, 255);
+    border-style: groove;
+    border-width: 5px;
+    width: 200px;
+}
+
+#playAgain:hover {
+    cursor: pointer
+}
